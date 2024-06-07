@@ -7,7 +7,7 @@ const { initializeApp, applicationDefault, cert } = require('firebase-admin/app'
 const { getFirestore, Timestamp, FieldValue, Filter } = require('firebase-admin/firestore');
 
 
-const serviceAccount = require('./fern-87ce9-firebase-adminsdk-sjvnz-0e50365d3b.json');
+const serviceAccount = require('./ativ-web-firebase-adminsdk-jrw9v-c0822ed21e.json');
 
 initializeApp({
     credential: cert(serviceAccount)
